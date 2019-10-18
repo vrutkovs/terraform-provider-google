@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-google
+module github.com/terraform-providers/terraform-provider-google/v2
 
 require (
 	cloud.google.com/go v0.36.0
@@ -22,3 +22,5 @@ require (
 	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
 	google.golang.org/api v0.4.0
 )
+
+go 1.13
